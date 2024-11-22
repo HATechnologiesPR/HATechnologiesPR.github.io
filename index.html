@@ -163,7 +163,10 @@
       <footer>
         <div class="copyrights">
           <div class="container text-center py-4">
-            <p class="mb-0 text-muted text-sm">&copy; 2024, HA Technologies</p>
+            <p class="mb-0 text-muted text-sm">&copy; <span id="currentYear"></span>, HA Technologies</p>
+            <script>
+              document.getElementById('currentYear').textContent = new Date().getFullYear();
+            </script>
             </div>
           </div>
         </footer>
