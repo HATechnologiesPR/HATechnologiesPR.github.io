@@ -1,21 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta content="dark" name="color-scheme">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HA Technologies</title>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="./style.css">
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HA Technologies PR</title>
+    <meta name="description" content>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="static/swiper-bundle.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap">
+    <!-- Device Mockup-->
+    <link rel="stylesheet" href="static/device-mockups.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="static/style.default.css"
+      id="theme-stylesheet">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.ico">
-</head>
-<body>
-    <img src="img/favicon.png" alt="Favicon" class="favicon">
-    <h1>Coming Soon!!</h1>
-    <!-- <canvas id="waterCanvas"></canvas> -->
-    <canvas id="embersCanvas"></canvas>
+  </head>
 
-<script  src="./script.js"></script>
-</body>
-</html>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+        <div class="container"><a class="navbar-brand" href="index.html"><img
+              src="img/Logo.png" alt width="90"></a>
+          <button class="navbar-toggler navbar-toggler-end" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link link-scroll"
+                  href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll"
+                  href="#servicios">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll"
+                  href="#work">Nuestro trabajo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Home Section-->
+    <section class="home bg-top py-5" id="home"
+      style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5 py-5">
+            <h1 style="color: #83151D;">HA Technologies PR</h1>
+            <h3>Impulsa tu Marca: Soluciones Web y Móviles de Calidad</h3>
+            <p class="my-4 text-muted">En el mundo digital de hoy, tener una
+              presencia profesional en línea es esencial para destacar. </p>
+            <p>En HA Technologies PR, nos dedicamos a crear sitios web y
+              aplicaciones móviles que no solo sean visualmente atractivos, sino
+              que también impulsen tu presencia personal y profesional.</p>
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <div class="screen"><img class="img-fluid" src="img/WebPage.png"
+                alt="Web Page"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Servicios Section -->
+    <section class="bg-center py-0" id="servicios"
+      style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
+      <section class="servicios py-0">
+        <div class="container">
+          <p class="h6 text-uppercase text-primary ">Nuestros Servicios</p>
+          <h2 class="mb-5">Descubre todos los servicios que te podemos
+            proveer.</h2>
+          <div class="row pb-5 gy-4">
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div
+                class="card border-0 shadow rounded-lg py-4 text-start h-100">
+                <div class="card-body p-5">
+                  <h3 class="h4 my-4">Diseño Web Personalizado</h3>
+                  <p class="text-sm text-muted mb-0"> Creamos diseños únicos
+                    que capturan la esencia de tu marca personal. Aseguramos
+                    que tu sitio web se adapte y luzca genial en todos los
+                    dispositivos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div
+                class="card border-0 shadow rounded-lg py-4 text-start h-100">
+                <div class="card-body p-5">
+                  <h3 class="h4 my-4">Desarrollo de Aplicaciones
+                    Móviles</h3>
+                  <p class="text-sm text-muted mb-0">Creamos aplicaciones
+                    móviles para iOS y Android que combinan funcionalidad y
+                    atractivo visual. Nuestras aplicaciones.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Services Item-->
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card border-0 shadow rounded-lg py-4 text-start h-100">
+                <div class="card-body p-5">
+                  <h3 class="h4 my-4">Consultoría Tecnológica</h3>
+                  <p class="text-sm text-muted mb-0">Brindamos asesoramiento
+                    en la implementación de soluciones tecnológicas
+                    personalizadas para satisfacer tus necesidades
+                    específicas. Nuestro enfoque se basa en una comprensión
+                    profunda de tus objetivos y desafíos, y trabajamos
+                    contigo para identificar y desplegar las tecnologías más
+                    adecuadas para ti.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Our work Section -->
+    <section class="bg-center py-0" id="work">
+      <section class="work py-5">
+        <div class="container">
+          <p class="h6 text-uppercase text-primary">Nuestro Trabajo</p>
+          <h2 class="mb-5">Descubre nuestros proyectos destacados.</h2>
+          <div class="row pb-5 gy-4">
+            <!-- Work 1 -->
+            <div class="col-lg-6">
+              <div
+                class="card border-0 shadow rounded-lg py-4 text-start h-100">
+                <div class="card-body p-4">
+                  <img src="img/CotizaTuPlanMedico.png" alt="Work 1"
+                    class="img-fluid mb-4 mx-auto d-block"
+                    style="width: 50%; height: auto;">
+                  <h3 class="h4 my-3">Cotiza Plan Medico</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Work 2 -->
+            <div class="col-lg-6">
+              <div
+                class="card border-0 shadow rounded-lg py-4 text-start h-100">
+                <div class="card-body p-4">
+                  <img src="img/GUMApp.png" alt="Work 2"
+                    class="img-fluid mb-4 mx-auto d-block"
+                    style="width: 50%; height: auto;">
+                  <h3 class="h4 my-3">GUM - Mobile App</h3>
+                </div>
+              </div>
+            </div>
+            <p>Contáctanos: <a
+                href="mailto:HATechnologiesPR@outlook.com">HATechnologiesPR@outlook.com</a></0>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <footer>
+        <div class="copyrights">
+          <div class="container text-center py-4">
+            <p class="mb-0 text-muted text-sm">&copy; 2024, HA Technologies</p>
+            </div>
+          </div>
+        </footer>
+        <canvas id="embersCanvas"></canvas>
+        <script src="static/bootstrap.bundle.min.js"></script>
+        <script src="static/swiper-bundle.min.js"></script>
+        <script src="static/modal-video.js"></script>
+        <script src="static/front.js"></script>
+        <script>
+      function injectSvgSprite(path) {
+
+        var ajax = new XMLHttpRequest();
+        ajax.open("GET", path, true);
+        ajax.send();
+        ajax.onload = function (e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+        }
+      }
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
+
+    </script>
+        <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+        <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+      </body>
+
+    </html>
