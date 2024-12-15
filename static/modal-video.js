@@ -452,7 +452,7 @@ const canvas = document.getElementById('embersCanvas');
         minSize: 1,
         maxSpeed: 7,
         minSpeed: 0.5,
-        color: 'rgba(131, 21, 29)', // Orange-red color with transparency
+        color: 'lightgray', // Orange-red color with transparency
     };
 
     // Adjust canvas size on resize
